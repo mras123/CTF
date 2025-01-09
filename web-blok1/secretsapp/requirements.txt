@@ -1,0 +1,9 @@
+Flask == 2.*
+mysql-connector-python == 8.*
+bcrypt == 4.*
+pytz
+Flask-Mail
+pyotp
+flask_login 
+cryptography
+

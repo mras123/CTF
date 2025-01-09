@@ -1,0 +1,152 @@
+body, html 
+{
+    
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57;
+}
+
+/* Main content styling */
+.content {
+   
+    padding-top: 60px; /* Adjust to ensure content is not hidden behind the navbar */
+}
+
+.welcome-container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin section styling */
+.admin-info {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-info h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.admin-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.admin-image {
+    flex: 1;
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.admin-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.admin-bio {
+    flex: 3;
+}
+
+.admin-bio p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Changed from absolute to relative */
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+h1 {
+    color: red;
+}
+
+.hero-footer 
+{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.button 
+{
+    padding: 0.5em 0.67em;
+    color: white;
+    text-decoration: none;
+    border: 0.1em solid white;
+}
+
+.button-primary
+{
+    color: black;
+    background-color: white;
+}
